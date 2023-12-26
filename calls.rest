@@ -1,9 +1,9 @@
-POST http://localhost:3003/api/blogs
+PUT http://localhost:3003/api/blogs/658b267314ef6b7618326558
 Content-Type: application/json
 
 {
-    "title": "10 tips for winter",
-    "author": "Alisa",
+    "title": "10 tips for spring",
+    "author": "Leevi",
     "url": "idk",
-    "likes": 1
+    "likes": 20
 }
