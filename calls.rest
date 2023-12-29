@@ -1,9 +1,21 @@
-PUT http://localhost:3003/api/blogs/658b267314ef6b7618326558
+GET http://localhost:3003/api/users/
 Content-Type: application/json
 
-{
-    "title": "10 tips for spring",
-    "author": "Leevi",
-    "url": "idk",
-    "likes": 20
-}
+# {
+#     "blogs": [],
+#     "name": "Alisa Liubarskaia",
+#     "username": "aliubarskaia",
+#     "password": "12345"
+# }
+
+# {
+#     "title": "Miracle happend yesterday",
+#     "author": "Leevi",
+#     "url": "idk",
+#     "likes": 20,
+#     "userId" : "658ec53f9c99365165568188"
+# }
+
+
+
+
