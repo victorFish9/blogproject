@@ -1,5 +1,26 @@
-GET http://localhost:3003/api/users/
+POST http://localhost:3003/api/testing/reset
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFsaXViYXJza2FpYSIsImlkIjoiNjU4ZWRjNDc2ZWNlZjg4MDNhNWQyZDk0IiwiaWF0IjoxNzA1OTMyMDg4fQ.kBqnll-fw_oxfNpE70duyBozTebAn2wR70hJLuxj5FE
+
+{
+    "title": "TEST WITH URL",
+    "author": "Tuomas Kyrö",
+    "url": "http:/something",
+    "likes": 12
+}
+
+# {
+#     "username": "aliubarskaia",
+#     "password": "12345"
+# }
+
+
+
+
+# {
+#     "username": "aliubarskaia",
+#     "password": "12345"
+# }
 
 # {
 #     "blogs": [],
@@ -8,13 +29,7 @@ Content-Type: application/json
 #     "password": "12345"
 # }
 
-# {
-#     "title": "Miracle happend yesterday",
-#     "author": "Leevi",
-#     "url": "idk",
-#     "likes": 20,
-#     "userId" : "658ec53f9c99365165568188"
-# }
+
 
 
 
